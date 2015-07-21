@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise', '~> 3.5.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk'
 
 group :development, :test do 
 	gem 'sqlite3'
