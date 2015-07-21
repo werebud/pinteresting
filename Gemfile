@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'devise', '~> 3.5.1'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 group :development, :test do 
 	gem 'sqlite3'
